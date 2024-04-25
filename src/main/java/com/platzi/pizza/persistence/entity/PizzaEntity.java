@@ -10,7 +10,8 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "pizza")
-@EntityListeners({AuditingEntityListener.class, AuditPizzaListener.class})
+//@EntityListeners({AuditingEntityListener.class, AuditPizzaListener.class})
+@EntityListeners({AuditingEntityListener.class})
 @Getter
 @Setter
 @NoArgsConstructor
